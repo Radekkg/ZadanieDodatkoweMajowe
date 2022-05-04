@@ -13,7 +13,6 @@ public class Main {
             while (scan.hasNextLine()) {
                 line = scan.nextLine();
                 passwordTest(line);
-
             }
             System.out.println("poprawnych: "+ trueCounter + " błendnych: "+ falseCounter);
         } catch (FileNotFoundException e) {
